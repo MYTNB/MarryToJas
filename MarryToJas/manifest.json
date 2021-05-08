@@ -1,0 +1,10 @@
+﻿{
+  "Name": "MarryToJas",
+  "Author": "Hunter",
+  "Version": "0.0.1",
+  "Description": "Marry To Jas~",
+  "UniqueID": "Hunter.MarryToJas",
+  "EntryDll": "MarryToJas.dll",
+  "MinimumApiVersion": "3.0.0",
+  "UpdateKeys": []
+}
