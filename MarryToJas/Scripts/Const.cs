@@ -13,8 +13,8 @@ namespace MarryToJas.Scripts
         // Jas 通用对话数据
         public const string Jas_Dialog = "Characters/Dialogue/Jas";
         // Jas 事件对话数据
-        public const string Jas_Dialog_Schedule = "Strings/schedules/Jas";
+        public const string Jas_Schedule_Dialog = "Strings/schedules/Jas";
         // 
-        public const string Jas_Dialog_Marriage = "Characters/Dialogue/MarriageDialogueJas";
+        public const string Jas_Marriage_Dialog = "Characters/Dialogue/MarriageDialogueJas";
     }
 }

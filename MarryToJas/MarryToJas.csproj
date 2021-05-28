@@ -67,6 +67,15 @@
     <Reference Include="System.Web.Extensions" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Contents\Dialogues.cs" />
+    <Compile Include="Contents\Events.cs" />
+    <Compile Include="Contents\Game\Season.cs" />
+    <Compile Include="Contents\Game\Weather.cs" />
+    <Compile Include="Contents\Game\Npc.cs" />
+    <Compile Include="Contents\Game\Map.cs" />
+    <Compile Include="Contents\Game\Weekday.cs" />
+    <Compile Include="Contents\MarriageDialogues.cs" />
+    <Compile Include="Contents\Schedules.cs" />
     <Compile Include="Scripts\Const.cs" />
     <Compile Include="Scripts\ModEntry.cs" />
     <Compile Include="Scripts\ModScript.cs" />
@@ -90,6 +99,7 @@
   <ItemGroup>
     <Content Include="assets\Characters\Jas.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Pathoschild.Stardew.ModBuildConfig.3.3.0\build\Pathoschild.Stardew.ModBuildConfig.targets" Condition="Exists('..\packages\Pathoschild.Stardew.ModBuildConfig.3.3.0\build\Pathoschild.Stardew.ModBuildConfig.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
